@@ -21,7 +21,7 @@ public class LaunchActivity extends AppCompatActivity {
         final String newString = getString(R.string.new_text);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            getColor(R.color.red);
+            getColor(R.color.green);
         }
 
         ContextCompat.getColor(this, R.color.red);
